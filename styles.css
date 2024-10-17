@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 248, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 200px;
+    position: absolute;
+}
+.one{
+    background-color: white;
+    width: 550px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+.two{
+    background-color: black;
+    color: white;
+    width: 550px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+.three{
+    background-color: white;
+    width: 550px;
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+.four{
+    background-color: black;
+    width: 550px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 50px;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+.five{
+    background-color: white;
+    width: 550px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+.six{
+    background-color: white;
+    width: 550px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px 3px 9px rgb(189, 188, 188);
+}
+input[type="checkbox"]{
+    accent-color: green;
+}
+.cross{
+    position: relative;
+    left: 300px;
+}
